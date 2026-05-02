@@ -3,7 +3,7 @@ if(process.env.NODE_ENV!="production"){
 }
 
 const express = require("express");
-const port = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080;
 const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
