@@ -24,7 +24,7 @@
         <li class="nav-item">
           <a class="nav-link" href="/listings/new">Airbnb your home</a>
         </li>
-        <% if(currUser){ %>
+        <% if (typeof currUser !== "undefined" && currUser) { %>
         <li class="nav-item">
           <a class="nav-link" href="/logout">Logout &nbsp;
             <div style="display:inline;"><b><%= currUser.username %></b></div></a>
