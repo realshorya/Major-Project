@@ -58,7 +58,7 @@ module.exports.putEditListing = async (req,res)=>{
     let listing=await Listing.findByIdAndUpdate(
         id,
         req.body.listing,
-        {runValidators:true, new:true}
+        {runValidators:true, returnDocument:"after"}
     );
 
     if (typeof req.file !== "undefined") {
