@@ -98,9 +98,11 @@ npm install
 
 3. **Setup environment variables** Create a **.env** file and add:
 ```bash
-MONGO_URL=your_mongodb_connection_string
-SECRET=your_secret_key
-CLOUDINARY_KEY=your_key(if used)
+CLOUD_NAME=your_cloudname
+CLOUD_API_KEY=your_cloudApiKey
+CLOUD_API_SECRET=your_cloudApiSecret
+ATLASDB_URL=your_atlasDb_url
+SECRET=your_session_secretcode
 ```
 
 4. **Run the app**
