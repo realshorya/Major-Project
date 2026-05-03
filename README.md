@@ -4,6 +4,12 @@ Wanderlust is a full-stack web application where users can explore, create, and 
 
 ---
 
+## Access the Wanderlust
+
+**https://wanderlust-yb7y.onrender.com**
+
+---
+
 ## 🚀 Features
 
 ### 🏡 Listings
