@@ -4,9 +4,9 @@ Wanderlust is a full-stack web application where users can explore, create, and 
 
 ---
 
-## Access the Wanderlust
+## 🌐 Live Demo
 
-**https://wanderlust-yb7y.onrender.com**
+👉 [Visit Wanderlust](https://wanderlust-yb7y.onrender.com)
 
 ---
 
@@ -75,8 +75,7 @@ Wanderlust is a full-stack web application where users can explore, create, and 
 - ⭐ Advanced rating system (star-based with averages)  
 - 🖼️ Multiple image uploads per listing  
 - 🔔 Notifications for user actions (reviews, updates)  
-- 📄 Pagination for better performance  
-- 🌐 Deploy the project with live demo  
+- 📄 Pagination for better performance   
 - 💬 Add comments or chat feature between users  
 
 ---
