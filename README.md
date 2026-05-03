@@ -86,11 +86,15 @@ Wanderlust/
 
 1. **Clone the repository:**
 git clone
- `https://github.com/realshorya/Wanderlust.git`
- `cd Wanderlust`
+ ```bash
+ https://github.com/realshorya/Wanderlust.git`
+ cd Wanderlust
+ ```
 
 2. **Install dependencies:**
-`npm install`
+```bash
+npm install
+```
 
 3. **Setup environment variables** Create a **.env** file and add:
 ```bash
@@ -100,13 +104,19 @@ CLOUDINARY_KEY=your_key(if used)
 ```
 
 4. **Run the app**
-`node app.js`
+```bash
+node app.js
+```
 
 or(if using nodemon):
-`nodemon app.js`
+```bash
+nodemon app.js
+```
 
 5. Open in browser:
-`http://localhost:8080`
+```bash
+http://localhost:8080
+```
 
 # 📸 Key Functionalities
 - Full CRUD operations for listings
@@ -135,4 +145,7 @@ Contributions are welcome! Feel free to fork this repo and submit a pull request
 
 **SHORYA**
 
-GitHub: `https://github.com/realshorya`
+GitHub: 
+```bash
+https://github.com/realshorya
+```
