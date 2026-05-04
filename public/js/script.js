@@ -20,13 +20,20 @@
 
 //tax switch
 let taxSwitch = document.getElementById("switchCheckDefault");
-taxSwitch.addEventListener("click",()=>{
+taxSwitch.addEventListener("change",()=>{
+  let prices = document.getElementsByClassName("price");
   let taxInfo = document.getElementsByClassName("tax-info");
-  for(info of taxInfo){
-    if(info.style.display != "inline"){
-      info.style.display="inline";
-    }else{
-      info.style.display="none";
+
+  for(let i = 0; i < prices.length; i++){
+    let priceElement = prices[i];
+    let basePrice = Number(priceElement.getAttribute("data-price"));
+    if (taxSwitch.checked) {
+      let newPrice = basePrice * 1.18;
+      priceElement.innerText = newPrice.toLocaleString("en-IN");
+      taxInfo[i].style.display = "inline";
+    } else {
+      priceElement.innerText = basePrice.toLocaleString("en-IN");
+      taxInfo[i].style.display = "none";
     }
   }
 })
