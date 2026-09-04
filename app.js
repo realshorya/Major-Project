@@ -1,5 +1,5 @@
 if(process.env.NODE_ENV!="production"){
-    require("dotenv").config({ quite: true });
+    require("dotenv").config({ quiet: true });
 }
 
 const express = require("express");
@@ -105,3 +105,5 @@ app.use((err,req,res,next)=>{
 app.listen(PORT,()=>{
     console.log("Listening at Port 8080");
 });
+
+module.exports = app;
