@@ -4,7 +4,7 @@ Wanderlust is a full-stack web application where users can explore, create, and 
 
 # 🌐 Live Demo
 
-👉 [Visit Wanderlust](https://wanderlust-yb7y.onrender.com)
+👉 [Visit Wanderlust](https://wanderlust-six-jet.vercel.app/listings)
 
 # 🚀 Features
 
